@@ -4,6 +4,10 @@ import time
 a = 1
 b = 2
 while a < b:
-    keyboard.press_and_release('Ctrl, s')
+    keyboard.press_and_release('Ctrl+s')
     print("saved")
-    time.sleep(30)
+
+window = Tk()
+label = label(window, font="Arial 16 italic")
+label.pack()
+window.mainloop()
