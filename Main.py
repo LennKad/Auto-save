@@ -1,3 +1,9 @@
 from tkinter import *
-print("cc")
-print("dd")
+import keyboard
+import time
+a = 1
+b = 2
+while a < b:
+    keyboard.press_and_release('Ctrl, s')
+    print("saved")
+    time.sleep(300)
