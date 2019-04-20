@@ -1,2 +1,3 @@
 from tkinter import *
-print ("cc")
+print("cc")
+print("dd")
