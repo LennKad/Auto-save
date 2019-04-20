@@ -6,4 +6,4 @@ b = 2
 while a < b:
     keyboard.press_and_release('Ctrl, s')
     print("saved")
-    time.sleep(300)
+    time.sleep(30)
